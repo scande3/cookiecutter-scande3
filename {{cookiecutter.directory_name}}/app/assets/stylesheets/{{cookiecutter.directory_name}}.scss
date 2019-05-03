@@ -1,33 +1,3 @@
 @charset "UTF-8";
 
 //@import "bootstrap";
-
-ul.navbar-nav {
-  a.dropdown-toggle.icon-nav {
-    padding-top:0px;
-    padding-bottom:0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 5px;
-    margin-right: 5px;
-    .fa-fw {
-      font-size: 42px;
-    }
-  }
-
-  img.user-image {
-    height: 42px;
-    width: 42px;
-    background-position: center center;
-    background-size: cover;
-    border-radius: 30px;
-    margin-right: 10px;
-    margin-left: 5px;
-    display: inline-block;
-    border: 1px solid rgba(0,0,0,0.3);
-  }
-  .dropdown-toggle.icon-nav::after {
-    display: none;
-  }
-}
-

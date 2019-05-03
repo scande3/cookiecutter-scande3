@@ -7,5 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 #
 if User.find_by(username: "{{cookiecutter.username}}").blank?
-  User.create(name: "{{cookiecutter.full_name}}", display_name: "{{cookiecutter.full_name}}", username: "{{cookiecutter.username}}", email: "{{cookiecutter.email}}")
+  User.create(name: "{{cookiecutter.full_name}}", display_name: "{{cookiecutter.full_name}}", username: "{{cookiecutter.username}}", email: "{{cookiecutter.email}}", admin: true)
 end

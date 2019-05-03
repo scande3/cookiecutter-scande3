@@ -1,0 +1,124 @@
+.notify-none, .notify-default {
+  svg {
+    color: rgba(255,255,255,0.75);
+  }
+
+  span.fa-layers-counter {
+    background-color: #aaaaaa;
+    color: #ffffff;
+  }
+}
+
+span.notify-some {
+  svg {
+    color: Tomato;
+  }
+
+  span.fa-layers-counter {
+    background-color: #ff253a;
+    color: #ffffff;
+  }
+}
+
+ul.navbar-nav {
+  a.dropdown-toggle.icon-nav {
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    .fa-fw {
+      font-size: 42px;
+    }
+  }
+
+  img.user-image {
+    height: 42px;
+    width: 42px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-left: 5px;
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,0.3);
+  }
+  .dropdown-toggle.icon-nav::after {
+    display: none;
+  }
+}
+.notifications-menu {
+  .header {
+    border-bottom: 1px solid #dddfe2;
+    padding: 5px 12px;
+    .btn-link:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.notifications-menu.some {
+  padding-top: 0;
+  width: 600px;
+
+  .unseen-icon {
+    background-color: #f00;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .catagory-header {
+    background-color: #f5f6f7;
+    border-bottom: 1px solid #dddfe2;
+    padding: 5px 12px;
+    color: #90949c;
+  }
+
+  .notification {
+    .user-image {
+      height: 60px;
+      width: 60px;
+      background-position: center center;
+      background-size: cover;
+      float: left;
+    }
+    .text {
+      vertical-align: top;
+      overflow: hidden;
+      padding: 5px;
+      padding-bottom: 1px;
+      .summary {
+        padding-bottom: 1px;
+      }
+    }
+    border-bottom: 1px solid #dddfe2;
+    border-right: 3px solid transparent;
+  }
+
+  a.notification-link, a.notification-link:link, a.notification-link:hover {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  .notification:hover {
+    background-color: #f6f6f6;
+  }
+
+  .notification.unclicked {
+    border-right: 3px solid blue !important;
+  }
+
+  .footer {
+    padding: 5px;
+    .next-link:hover, .prev-link:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.notifications-menu.loading,.notifications-menu.empty {
+  padding: 5px 12px;
+}
