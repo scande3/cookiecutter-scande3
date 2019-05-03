@@ -35,7 +35,7 @@ This a template for starting Rails application for myself. This template include
 
 ## Getting Started
 ### Generate Project
-    $ cookiecutter git@github.com:scande3/cookiecutter-scande3.git
+    $ cookiecutter https://github.com/scande3/cookiecutter-scande3.git
 
 This will create your application with the following sample files that can eventually be removed:
 * [SampleController]({{cookiecutter.directory_name}}/app/controllers/sample_controller.rb)
