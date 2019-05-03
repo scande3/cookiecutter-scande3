@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">{{cookiecutter.camel_case_name}}</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <%= nav_link "Sample", "#" %>
+    </ul>
+    <ul class="navbar-nav">
+      <%= icon_dropdown "plus-square" do %>
+        <ul class="dropdown-menu dropdown-menu-right">
+          <%= nav_dropdown_item_link "Sample 1", "#" %>
+          <%= nav_dropdown_item_link "Sample 2", "#" %>
+        </ul>
+      <% end %>
+
+      <%= icon_dropdown "bookmark", 3, link_html_options: {"data-role": "bookmark-counter"} do %>
+        <ul class="dropdown-menu dropdown-menu-right">
+          <%= nav_dropdown_item_link "Sample 3", "#" %>
+          <%= nav_dropdown_item_link "Sample 4", "#" %>
+          <%= nav_dropdown_item_link "Sample 5", "#" %>
+        </ul>
+      <% end %>
+
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,88 @@
+label.required abbr, span.required abbr {
+  color: red;
+  font-size: small;
+}
+
+.field-wrapper select.singleton {
+  width: 420px;
+}
+
+.upload-form {
+  /*
+ * Global add-ons
+ */
+
+
+
+  /* Form styles */
+  .repeat_field_value .listing, .no_repeat_field_value .listing {
+    margin-left: 0;
+    max-width: 30em;
+    padding-left: 0px;
+  }
+  .field-wrapper {
+    padding-bottom: 3px;
+  }
+  .repeat_field_value .field-wrapper, .no_repeat_field_value .field-wrapper {
+    list-style-type: none;
+    width: 100%;
+  }
+
+  .input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+  }
+
+  ul, ol {
+    margin-top: 0;
+    margin-bottom: 23px;
+  }
+
+  label.boolean {
+    padding-left: 5px;
+    font-weight: normal;
+  }
+
+  .form_table {
+    width: 100%;
+  }
+  .form_table tr {
+    border-top: 1px solid #ddd;
+  }
+  .form_table tr > td {
+    padding-top:5px;
+    padding-bottom:2px;
+  }
+
+
+
+  .well-information {
+    font-size:18px;
+    font-weight: bold;
+    margin-bottom:15px;
+  }
+
+  label.collection_radio_buttons {
+    padding-left: 5px;
+    padding-right:15px;
+    font-weight: normal;
+  }
+
+  .form-group {
+    margin-bottom: 23px;
+  }
+
+  .admin-bottom-buttons {
+    margin-top: 30px;
+  }
+  .admin-bottom-buttons div.pull-left {
+    margin-top: 9px;
+  }
+  .admin-bottom-buttons input.btn-primary {
+    margin-left:6px;
+    margin-top:-7px;
+  }
+
+}
+

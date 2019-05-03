@@ -1,0 +1,23 @@
+test_user:
+  username: $LABEL
+  email: $LABEL@akamai.com
+  name: $LABEL
+  display_name: $LABEL
+  first_name: $LABEL
+  preferred_name: $LABEL
+  disabled: 1
+  sign_in_count: 0
+  department: Systems Safety & Resilience
+
+sanderso:
+  username: $LABEL
+  email: $LABEL@akamai.com
+  name: $LABEL
+  display_name: $LABEL
+  first_name: $LABEL
+  preferred_name: $LABEL
+  disabled: 0
+  sign_in_count: 0
+  department: Systems Safety & Resilience
+
+

@@ -1,0 +1,10 @@
+{
+  "directory_name": "my_rails_app",
+  "camel_case_name": "MyRailsApp",
+  "project_short_description": "A Rails project.",
+  "full_name": "Steven Anderson",
+  "username": "sanderso",
+  "email": "stevencarlanderson@gmail.com",
+  "rails_full_version": "5.2.3",
+  "rails_major_version": "5.3"
+}

@@ -1,0 +1,66 @@
+.help_text_popup {
+  a.popover_link {
+    float: left;
+    margin-left: 3px;
+  }
+  i.help-icon {
+    font-size: 1.1em;
+    margin-top:-7px;
+  }
+  .popover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1060;
+    display: none;
+    max-width: 400px;
+    width: 400px;
+    padding: 1px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-break: auto;
+    line-height: 1.42857143;
+    text-align: left;
+    text-align: start;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    white-space: normal;
+    word-break: normal;
+    word-spacing: normal;
+    word-wrap: normal;
+    font-size: 14px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    color:#333333;
+  }
+  .popover-title { display: none; }
+
+  ul {
+    margin-left:0px;
+    padding-left: 17px;
+    padding-right:15px;
+
+  }
+  li {
+    padding-left: 0px;
+    margin-left:0px;
+    margin-top:9px;
+  }
+
+  ul li ul {
+    margin-left:0px;
+    padding-left: 17px;
+  }
+  ul li ul li {
+    margin-top:2px;;
+  }
+}
+

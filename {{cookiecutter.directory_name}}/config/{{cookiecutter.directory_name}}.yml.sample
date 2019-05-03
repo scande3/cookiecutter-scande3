@@ -1,0 +1,11 @@
+default: &default
+  development_user: {{cookiecutter.username}}
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+
+production:
+  <<: *default

@@ -1,0 +1,16 @@
+<%
+    link_class = link_html_options.fetch(:class, '')
+    link_html_options.delete(:class)
+%>
+
+<li class="nav-item dropdown">
+  <%= link_to "#", {
+    class: "nav-link dropdown-toggle icon-nav #{link_class}",
+    role: "button",
+    "data-toggle": "dropdown",
+    "aria-haspopup": "true",
+    "aria-expanded": "false"}.merge(link_html_options) do %>
+      <%= image_tag source, image_options %>
+  <% end %>
+  <%= yield %>
+</li>

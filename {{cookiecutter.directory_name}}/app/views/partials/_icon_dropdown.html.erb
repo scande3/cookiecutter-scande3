@@ -1,0 +1,25 @@
+<%
+    count ||= nil
+link_class = link_html_options.fetch(:class, '')
+link_html_options.delete(:class)
+counter_class = counter_html_options.fetch(:class, '')
+counter_html_options.delete(:class)
+%>
+<li class="nav-item dropdown">
+  <%= link_to "#", {
+    class: "nav-link dropdown-toggle icon-nav #{link_class}",
+    role: "button",
+    "data-toggle": "dropdown",
+    "aria-haspopup": "true",
+    "aria-expanded": "false"}.merge(link_html_options) do %>
+    <span class="fa-layers fa-fw notify-default">
+      <i class="fas fa-<%= icon %>"></i>
+      <% unless count.nil? %>
+        <%= content_tag :span, { class: "fa-layers-counter #{counter_class}" }.merge(counter_html_options) do %>
+          <%= count %>
+        <% end %>
+      <% end %>
+    </span>
+  <% end %>
+  <%= yield %>
+</li>
